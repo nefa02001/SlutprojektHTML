@@ -1,0 +1,78 @@
+body, html {
+    font-family:Helvetica;
+	height: 100%; 
+}
+
+/*Navigation*/
+.sidenav {
+    height: 100%;
+    width: 6.5%;
+	z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #ff33cc;
+	display: block;
+	margin: 0;
+	float: left;
+	position: fixed; 
+}
+
+.sidenav ul{
+	list-style: none;
+}
+
+nav.sidenav li a{
+	text-decoration: none;
+	width: 100%;
+}
+
+nav.sidenav ul{
+	padding: 0;
+} 
+
+.divsidenav {
+	height: 100%;
+	float: left;
+	width: 6.5%;	
+}
+
+.sidenav a {
+    color: white;
+    padding: 15px 8px;
+    display: block;
+	float: left;
+	font-size: 90%;
+}
+
+.sidenav a:hover {
+    background-color: lightgrey;
+    color: black;
+	left: 0;
+}
+/*-------------------------*/
+
+
+/*Tabell*/
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 8px;
+	text-align: left;
+	border: solid lightgrey;
+}
+/*-------------------------*/
+
+
+/*Bild*/
+img {
+	height: 600px;
+	width: 550px;
+	border-radius: 25px;
+}
+
+.synth {
+	height: 600px;
+	width: 1000px;
+}
